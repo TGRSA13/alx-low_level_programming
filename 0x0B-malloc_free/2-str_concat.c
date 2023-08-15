@@ -10,7 +10,10 @@ char *str_concat(char *s1, char *s2)
 {
         char *conct;
         int i, ci;
+<<<<<<< HEAD
 
+=======
+>>>>>>> 35bf3eb0288454b53a0651574fbcfd90e08eb249
         if (s1 == NULL)
                 s1 = "";
         if (s2 == NULL)
@@ -29,7 +32,10 @@ char *str_concat(char *s1, char *s2)
                 conct[i] = s1[i];
                 i++;
         }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 35bf3eb0288454b53a0651574fbcfd90e08eb249
         while (s2[ci] != '\0')
         {
                 conct[i] = s2[ci];
